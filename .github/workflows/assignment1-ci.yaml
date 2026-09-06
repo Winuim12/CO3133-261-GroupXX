@@ -1,12 +1,19 @@
-name: CI
+name: Assignment 1 CI
 
 on:
   push:
     branches:
       - main
+    paths:
+      - "assignment1/**"
+      - ".github/workflows/assignment1-ci.yaml"
+
   pull_request:
     branches: 
       - main
+    paths:
+      - "assignment1/**"
+      - ".github/workflows/assignment1-ci.yaml"
 
   workflow_dispatch:
 
@@ -25,7 +32,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: "3.12"
 
       - name: Install dependencies
         run: |
