@@ -1,0 +1,28 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+#Data
+data/raw/
+data/processed/
+
+#Model checkpoints
+results/checkpoints/
+*.pt
+*.pth
+
+#MLflow
+mlruns/
+
+#Experiment outputs
+results/metrics
+results/curves
+results/confusion_matrices
+results/predictions
+
+#Jupyter
+.ipynb_checkpoints/
+
+AGENTS.md
