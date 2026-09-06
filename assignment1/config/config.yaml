@@ -1,0 +1,22 @@
+seed: 42
+
+data:
+  dataset: fashion_mnist
+
+  image_size: 28 
+  num_channels: 1
+  num_classes: 10
+
+  batch_size: 128
+  num_workers: 2
+
+  validation_size: 0.1
+
+training:
+  epochs: 20
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  optimizer: adamw
+
+evaluation:
+  checkpoint_rule: best_val_loss

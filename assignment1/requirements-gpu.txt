@@ -1,0 +1,5 @@
+-r requirements.txt
+
+--index-url https://download.pytorch.org/whl/test/cu130
+torch==2.14.0
+torchvision==0.29.0
