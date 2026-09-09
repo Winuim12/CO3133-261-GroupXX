@@ -10,7 +10,7 @@
 ---
 
 ## Public Course Website
-**[View Landing Page & Project Reports](https://diamondhoang.github.io/CO3133-261-GroupXX/)**
+**[View Landing Page & Project Reports](https://winuim12.github.io/CO3133-261-GroupXX/)**
 
 ---
 
